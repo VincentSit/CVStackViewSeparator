@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author           = { "unixzii" => "unixzii@gmail.com" }
   s.source           = { :git => "https://github.com/VincentSit/CVStackViewSeparator.git",
                          :branch => "master" }
-  s.source_files     = "Classes/*.swift"
+  s.source_files     = "Classes/*.{h,m}"
   s.requires_arc     = true
 
   s.ios.deployment_target = "9.0"
